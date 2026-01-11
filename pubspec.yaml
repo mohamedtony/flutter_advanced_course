@@ -28,4 +28,5 @@ flutter:
   assets:
     - assets/svgs/
     - assets/images/
+    #- assets/images/splash_screen_android12above.png 
 
