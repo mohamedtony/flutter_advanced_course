@@ -16,6 +16,10 @@ dependencies:
   flutter_screenutil: ^5.9.3
   #A flutter plugin for creating native splash screens for Android and iOS.
   flutter_native_splash: ^2.4.7
+  #Flutter widgets for easily adding gaps inside Flex widgets such as Columns and Rows or scrolling views.
+  gap: ^3.0.1
+  #The Font Awesome Icon pack available as Flutter Icons. Provides 2000 additional icons to use in your apps.
+  font_awesome_flutter: ^10.9.1
 
 dev_dependencies:
   flutter_test:

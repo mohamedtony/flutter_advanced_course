@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_advanced_course/core/helpers/extensions.dart';
+import 'package:flutter_advanced_course/core/routing/routes.dart';
+import 'package:flutter_advanced_course/core/shared_widgets/app_text_button.dart';
 import 'package:flutter_advanced_course/features/on_boarding/widgets/doc_logo_and_name.dart';
 import 'package:flutter_advanced_course/features/on_boarding/widgets/doctor_image_and_text.dart';
 import 'package:flutter_advanced_course/features/on_boarding/widgets/get_started_button.dart';
@@ -31,7 +34,13 @@ class OnBoardingScreen extends StatelessWidget {
                         style: TextStyles.font11GrayRegular,
                       ),
                       SizedBox(height: 30.h),
-                      const GetStartedButton()
+                      //const GetStartedButton(),
+                      AppTextButton(
+                        onButtonClicked: () {
+                          context.pushNamed(Routes.loginScreen);
+                        },
+                        text: "Get Started",
+                      ),
                     ],
                   ),
                 ),
