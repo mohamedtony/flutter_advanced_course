@@ -128,7 +128,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
                 child: TermsAndConditionsText(),
               ),
-
               Container(
                 margin: EdgeInsets.only(bottom: 30.h),
 
