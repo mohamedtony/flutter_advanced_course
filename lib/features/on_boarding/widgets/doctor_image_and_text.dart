@@ -17,11 +17,12 @@ class DoctorImageAndText extends StatelessWidget {
               colors: [Colors.white, Colors.white.withAlpha(0)],
               begin: Alignment.bottomCenter,
               end: Alignment.topCenter,
-              stops: [0.14, 0.6],
+              stops: const [0.14, 0.6],
             ),
           ),
           child: Image.asset('assets/images/onboarding_doc_image.png'),
         ),
+        const Text("hi"),
         Positioned(
           bottom: 30.0.h,
           right: 0.0,
@@ -32,6 +33,8 @@ class DoctorImageAndText extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyles.font32BlueBold.copyWith(height: 1.4),
           ),
+
+    
         ),
       ],
     );

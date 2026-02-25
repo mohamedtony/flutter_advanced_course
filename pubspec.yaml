@@ -20,11 +20,48 @@ dependencies:
   gap: ^3.0.1
   #The Font Awesome Icon pack available as Flutter Icons. Provides 2000 additional icons to use in your apps.
   font_awesome_flutter: ^10.9.1
+  #retrofit.dart is an dio client generator using source_gen and inspired by Chopper and Retrofit.
+  #retrofit: 4.7.0
+  #A powerful HTTP networking package, supports Interceptors, Aborting and canceling a request, Custom adapters, Transformers, etc.
+  #dio: 5.3.3
+  #Classes and helper functions that support JSON code generation via the `json_serializable` package.
+  #json_annotation: 4.8.1
+  #A code generator for immutable classes that helps reduce boilerplate code.
+  freezed: ^3.2.3
+  #Annotations for the freezed code-generator. This package does nothing without freezed too.
+  freezed_annotation: ^3.1.0
+  #Pretty Dio logger is a Dio interceptor that logs network calls in a pretty, easy to read format.
+  pretty_dio_logger: ^1.4.0
+  #Automatically generate code for converting to and from JSON by annotating Dart classes.
+  #json_serializable: ^6.10.0
+
+
+  #logger: ^2.6.0  # for logging purpose
+  flutter_bloc: ^9.1.1 
+  #Flutter widgets that make it easy to implement the BLoC (Business Logic Component) design pattern. Built to be used with the bloc state management package.
+
+  get_it: ^9.2.1
+  #Simple direct Service Locator that allows to decouple the interface from a concrete implementation and to access the concrete implementation from everywhere in your App"
+
+  dio: ^5.9.0 # Or newer
+  retrofit: ^4.9.2 # Or newer
+  json_annotation: ^4.9.0 # Or newer
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+
+  #A build system for Dart code generation and modular compilation.
+  #build_runner: 2.4.6
+  #retrofit generator is an dio client generator using source_gen and inspired by Chopper and Retrofit.
+  #retrofit_generator: 8.0.0
+  #json_serializable: 6.5.4
+
+  build_runner: ^2.10.5 # Or newer
+  retrofit_generator: ^10.2.1 # Or newer
+  json_serializable: ^6.11.4 # Or newer
+
 
 flutter:
   uses-material-design: true

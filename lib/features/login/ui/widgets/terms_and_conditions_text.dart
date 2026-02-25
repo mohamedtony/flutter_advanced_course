@@ -6,7 +6,7 @@ class TermsAndConditionsText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RichText(
+    return  RichText(
       textAlign: TextAlign.center,
       text: TextSpan(
         text: "By logging, you agree to our ",
